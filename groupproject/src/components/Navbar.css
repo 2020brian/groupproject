@@ -93,3 +93,45 @@
     color: black;
 
 }
+.topheader .container .icon .account p{
+    margin-top: 2px;
+    margin-right: 5px;
+
+
+}
+.topheader .container .icon .icon2{
+    justify-content: space-between;
+    margin-right: 5px;
+    display: flex;
+
+}
+.topheader .container .icon .icon2 p{
+    cursor: pointer;
+
+    font-size: 22px;
+    margin-right: 5px;
+
+}
+.header-container{
+    padding: 20px 30px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+.header-container .container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+   
+
+
+}
+
+.header-container .menu ul {
+    display: flex;
+
+}
+.header-container .menu ul li{
+    list-style: none;
+    margin-left: 20px;
+
+}
