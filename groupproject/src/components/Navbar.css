@@ -1,0 +1,95 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+
+
+}
+.topheader{
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 30px 40px;
+
+}
+.topheader .container{
+    
+    justify-content: space-between;
+    display: flex;
+}
+.free .icons{
+    font-size: 35px;
+    color: rgb(7, 7, 6);
+
+}
+
+.free
+{
+    display: flex;
+    padding: 10px 30px;
+    background: blanchedalmond;
+    width: 100%;
+
+
+}
+.free p{
+    font-weight: 500;
+    color: red;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 10px;
+
+
+}
+.topheader .container .search{
+    margin-right: 30px;
+
+
+}
+.topheader .container .search input{
+    width: 300px;
+    outline: none;
+    border: 1px solid skyblue;
+    padding: 10px 30px;
+
+
+
+
+}
+.topheader .container .search button{
+    background:skyblue;
+    cursor: pointer;
+    outline: none;
+    border: 3px solid ;
+    padding: 12px 20px;
+    
+
+}
+.topheader .container .icon{
+    margin-right: 50px;
+    display: flex;
+
+
+}
+
+.topheader .container .icon .iconuser{
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0px;
+
+
+}
+.topheader .container .icon .account {
+    margin-right: 30px;
+    display: flex;
+
+}
+.topheader .container .icon .account .iconuser{
+    cursor: pointer;
+    font-size: 22px;
+    margin-right: 10px;
+    color: black;
+
+}
